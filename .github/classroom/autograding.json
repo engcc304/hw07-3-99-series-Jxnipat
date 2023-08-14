@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW07/hw07-3-series.cpp",
+      "run": "./a.out",
+      "input": "5\r\n",
+      "output": "Series = 9 + 99 + 999 + 9999 + 99999\r\nSum = 111105",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 2",
+      "setup": "g++ -o a.out ./Homework/HW07/hw07-3-series.cpp",
+      "run": "./a.out",
+      "input": "7\r\n",
+      "output": "Series = 9 + 99 + 999 + 9999 + 99999 + 999999 + 9999999\r\nSum = 11111103",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
